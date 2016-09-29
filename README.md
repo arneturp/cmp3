@@ -1,6 +1,6 @@
 Crossmedia publishing III
 =========================
 
-Arne Turpyn
-arneturp
-3MMP proDUCE
+Arne Turpyn  
+arneturp  
+3MMP proDUCE  
