@@ -1,0 +1,13 @@
+$black: #0F1021;
+$primary: #D01257;
+$title-color: lighten($black, 20%);
+$body-color: lighten($black, 40%);
+
+main {
+
+}
+
+footer {
+    padding: 40px 0;
+    background-color: $black;
+}

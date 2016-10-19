@@ -1,0 +1,67 @@
+html, body {
+  font-size: 16px;
+  font-family: "Lato", sans-serif; }
+
+h1 {
+  font-size: 35px;
+  font-weight: 900;
+  color: #0F1021;
+  margin-bottom: 0;
+  padding-bottom: 70px;
+  position: relative;
+  margin-top: 0;
+  line-height: 35px; }
+  h1::after {
+    position: absolute;
+    bottom: 35px;
+    height: 5px;
+    width: 120px;
+    left: 0;
+    background-color: #D01257;
+    content: ""; }
+
+header .banner {
+  background-image: url(http://unsplash.it/1000/201);
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0; }
+  header .banner .logo {
+    display: block;
+    margin: 0 auto;
+    height: 20vh; }
+
+nav {
+  background-color: #0F1021;
+  height: 60px; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    nav ul li {
+      float: left;
+      padding: 0;
+      margin: 0; }
+      nav ul li a {
+        display: block;
+        color: #fff !important;
+        text-decoration: none !important;
+        line-height: 60px;
+        padding: 0px 15px;
+        background-color: transparent;
+        transition: all .15s ease-in-out; }
+        nav ul li a:hover {
+          background-color: rgba(255, 255, 255, 0.1); }
+
+main {
+  padding: 80px 0; }
+  main .sidebar .panel {
+    padding: 1px 20px;
+    background-color: #ebecf6; }
+
+footer {
+  padding: 40px 0;
+  background-color: #0F1021 !important;
+  text-align: center !important;
+  color: rgba(255, 255, 255, 0.8); }
+
+/*# sourceMappingURL=turpoint.css.map */

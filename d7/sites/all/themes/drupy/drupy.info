@@ -1,0 +1,7 @@
+name = Drupy
+description = A custom theme for Drupal
+core = 7.x
+
+stylesheets[all][] = css/vendor/normalize.css
+stylesheets[all][] = css/vendor/bootstrap.min.css
+stylesheets[all][] = css/style.css

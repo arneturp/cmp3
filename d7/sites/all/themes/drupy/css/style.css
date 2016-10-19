@@ -1,0 +1,97 @@
+html, body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  height: 100%;
+  width: 100%;
+  font-weight: 200; }
+
+header {
+  background-color: #333333;
+  height: 90px; }
+
+.navbar-default {
+  border: none;
+  border-radius: 0;
+  background-color: #3FA9F5; }
+  .navbar-default .navbar-brand {
+    position: relative; }
+    .navbar-default .navbar-brand img {
+      position: absolute;
+      top: -80px;
+      height: 190px; }
+  .navbar-default .navbar-nav li a {
+    background-color: #3FA9F5 !important;
+    color: #fff;
+    font-weight: 400;
+    transition: all .15s ease-in-out;
+    padding: 20px 15px; }
+  .navbar-default .navbar-nav li.active a, .navbar-default .navbar-nav li:hover a, .navbar-default .navbar-nav li.active:hover a {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: #fff !important; }
+
+main {
+  padding: 70px 0 90px; }
+  main h1 {
+    font-family: "Amaranth", sans-serif;
+    color: #333333;
+    margin: 0 0 40px; }
+  main p {
+    color: #808080;
+    line-height: 22px; }
+
+.panel .panel-head {
+  padding: 10px;
+  text-align: center;
+  background-color: #e6e6e6;
+  font-family: "Amaranth", sans-serif;
+  color: #333333;
+  font-weight: 800;
+  font-size: 22px;
+  border-radius: 15px 0 0; }
+.panel .panel-body {
+  background-color: #f3f3f3;
+  padding: 20px;
+  border-radius: 0 0 15px; }
+
+footer .prefooter {
+  background-color: #f3f3f3;
+  padding: 50px 0;
+  background-image: url(../img/footer_background.png);
+  background-position: right top;
+  background-size: auto 100%;
+  background-repeat: no-repeat; }
+  footer .prefooter h2 {
+    color: #666666;
+    font-family: "Amaranth", sans-serif;
+    font-size: 24px;
+    margin: 0 0 20px; }
+  footer .prefooter p {
+    color: #808080;
+    font-weight: 200;
+    line-height: 24px; }
+  footer .prefooter .footer-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    footer .prefooter .footer-nav li a {
+      color: #808080;
+      text-decoration: none;
+      font-weight: 200;
+      line-height: 24px;
+      display: block;
+      padding-left: 0px;
+      transition: all .15s ease-in-out; }
+      footer .prefooter .footer-nav li a:hover {
+        padding-left: 5px;
+        color: #3FA9F5; }
+footer .copyright {
+  background-color: #333333;
+  padding: 25px 0; }
+  footer .copyright p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    margin: 0; }
+
+/*# sourceMappingURL=style.css.map */
