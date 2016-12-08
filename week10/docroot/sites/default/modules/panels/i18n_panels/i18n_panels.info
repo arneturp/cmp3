@@ -1,0 +1,14 @@
+name = Panels translation
+description = Supports translatable panels items.
+dependencies[] = i18n
+dependencies[] = panels
+dependencies[] = i18n_string
+dependencies[] = i18n_translation
+package = Multilingual - Internationalization
+core = 7.x
+
+
+; Information added by simplytest.me build script
+version = "7.x-3.8"
+project = "panels"
+
